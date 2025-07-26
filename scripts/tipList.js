@@ -5,10 +5,9 @@ export const tipList = () => {
 
     for (const tip of database.tips) {
         tipHTML += `
-         <ul="tips">
-              <li> ${tip.text}</li>
-           </ul>
-           `;
+         <ul class =tips>
+         <li class="tip">${tip.topic} : ${tip.text}</li>
+         </ul>`;
 
     }
     return tipHTML
