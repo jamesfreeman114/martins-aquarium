@@ -1,10 +1,20 @@
+.fishTips {
+    display: flex;
+    justify-items: space-between; 
+    align-items: flex-start;
+    gap: 20px;
+}
+
+
 .fish {
-    flex-basis: 300px;
+    
     flex-grow: 1;
     max-width: 400px;
+    max-height: 1000px;
     margin-bottom: 20px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     background-color: #ffffff;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
@@ -46,14 +56,34 @@
     line-height: 1.5;
 }
 
-.tip {}
+.tip {
 
+}
 .locations {
+    /* flex-basis: 300px;
+    flex-grow: 1;
+    max-width: 400px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    transition: transform 0.3s ease; */
+}
+
+.locations:hover {
+    transform: translateY(-5px);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+
+ 
+
+.location   {
+    padding: 20px;
     font-size: 18px;
     color: #666666;
     line-height: 1.5;
-}
-
-.location {
-    
 }

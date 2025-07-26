@@ -1,12 +1,39 @@
 #fishList {
- display: flex;
- flex-wrap: wrap;
- justify-content: left;
- gap: 20px;
- padding: 20px;
-
+order: 1;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-self: flex-start;
+justify-content: flex-start;
+gap: 20px;
+max-width: 800px;
+ 
 }
 
-#tipList {}
 
-#fishList {}
+
+#tipList {
+
+order: 2;    
+display: flex;
+flex-direction: column;
+align-self: flex-start;
+justify-content: flex-end;
+max-width: 300px;
+ 
+}
+
+#tipList:hover {
+transform: translateY(-5px);
+box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+#locationList {
+
+display: flex;
+flex-direction: column;
+align-self:flex-start;
+justify-self: flex-start;
+
+
+}
