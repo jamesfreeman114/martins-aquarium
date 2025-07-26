@@ -1,12 +1,11 @@
-export const database = {
-    fish: [
+export const database = [
         {
             name: "Nemo",
             species: "Clownfish",
             length: 3,
             location: "Great Barrier Reef",
             diet: "Omnivore",
-            image: "https://example.com/images/nemo.jpg"
+            image: "https://i.imgur.com/Ev3rXMk.png"
         },
         {
             name: "Dory",
@@ -14,7 +13,7 @@ export const database = {
             length: 5,
             location: "Great Barrier Reef",
             diet: "Omnivore",
-            image: "https://example.com/images/dory.jpg"
+            image: "https://pixelatedgeek.com/wp-content/uploads/2016/06/dory.jpg"
         },
         {
             name: "Angelica",
@@ -57,4 +56,5 @@ export const database = {
             image: "https://c02.purpledshub.com/uploads/sites/62/2025/02/Humpback-anglerfish-Melanocetus-johnsonii-1.jpeg?w=750&webp=1"
         },
     ]
-}
+
+
