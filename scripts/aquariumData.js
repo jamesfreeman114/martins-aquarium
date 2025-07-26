@@ -1,4 +1,5 @@
-export const database = [
+export const database = {
+    fish: [
         {
             name: "Nemo",
             species: "Clownfish",
@@ -54,7 +55,7 @@ export const database = [
             location: "Mariana Trench",
             diet: "Carnivore",
             image: "https://c02.purpledshub.com/uploads/sites/62/2025/02/Humpback-anglerfish-Melanocetus-johnsonii-1.jpeg?w=750&webp=1"
-        },
+        }
     ]
 
-
+}
