@@ -6,10 +6,10 @@ export const locationList = () => {
     for (const location of database.locations) {
         locationHTML += `
          <article class ="locations">
-         <section class="location">${location.name} : ${location.country} , ${location.description} </section>
+         <section class="location">${location.name}: ${location.country}, ${location.description}</section>
          </article>`;
 
     }
-    return tipHTML
+    return locationHTML
 }
 
