@@ -60,21 +60,38 @@ export const database = {
 
     tips: [
         {
-        topic: "Water Temperature",
-        text: "Maintain a consistent water temperature between 75-80°F (24-27°C) for most tropical fish."
+            topic: "Water Temperature",
+            text: "Maintain a consistent water temperature between 75-80°F (24-27°C) for most tropical fish."
         },
         {
-        topic: "Water Salinity",
-        text: "Maintain a consistent water salinity for saltwater aquarium fish."
+            topic: "Water Salinity",
+            text: "Maintain a consistent water salinity for saltwater aquarium fish."
         },
         {
-        topic: "Water Quality",
-        text: "Maintain 0ppm Ammonia, 0ppm Nitrite, and less than 20ppm Nitrate for saltwater aquarium fish."
+            topic: "Water Quality",
+            text: "Maintain 0ppm Ammonia, 0ppm Nitrite, and less than 20ppm Nitrate for saltwater aquarium fish."
         },
         {
-        topic: "Water Changes",
-        text: "Regularly change up to 50% of aquarium tank water to maintain optimal water parameters."
+            topic: "Water Changes",
+            text: "Regularly change up to 50% of aquarium tank water to maintain optimal water parameters."
         },
     ],
+    locations: [
+        {
+            name: "Great Barrier Reef",
+            country: "Australia",
+            description: "The Great Barrier Reef is the world's largest coral reef system, supporting a diverse array of marine life."
+        },
+        {
+            name: "Mariana Trench",
+            country: "Western Pacific Ocean",
+            description: "The Deepest Trench in the entire world. Depths reach up to nearly 36,000 feet."
+        },
+        {
+            name: "Bermuda Triangle",
+            country: "Atlantic Ocean",
+            description: "Mysterious region where multiple ships and planes have gone missing."
+        }
+    ]
 
 }
