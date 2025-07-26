@@ -1,5 +1,6 @@
 import { generateFishHTML } from './fishList.js'
-import { renderTipToDOM, tipList } from './tipList.js'
+import { tipList } from './tipList.js'
+import { renderTipToDOM } from './tipRender.js'
 // import { locationList } from './locationList.js'
 import { renderFishToDOM } from './fishRender.js'
 
