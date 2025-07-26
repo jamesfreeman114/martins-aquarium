@@ -1,11 +1,14 @@
 import { generateFishHTML } from './fishList.js'
-// import { tipList } from './tipList.js'
+import { renderTipToDOM, tipList } from './tipList.js'
 // import { locationList } from './locationList.js'
 import { renderFishToDOM } from './fishRender.js'
 
 // Generate the fish list
 const fishHTML = generateFishHTML();
 renderFishToDOM(fishHTML);
+
+const tipHTML = tipList();
+renderTipToDOM(tipHTML);
 
 // // Generate the care tips
 // const tipHTML = tipList()

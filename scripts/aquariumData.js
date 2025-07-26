@@ -56,6 +56,25 @@ export const database = {
             diet: "Carnivore",
             image: "https://c02.purpledshub.com/uploads/sites/62/2025/02/Humpback-anglerfish-Melanocetus-johnsonii-1.jpeg?w=750&webp=1"
         }
-    ]
+    ],
+
+    tips: [
+        {
+        topic: "Water Temperature",
+        text: "Maintain a consistent water temperature between 75-80°F (24-27°C) for most tropical fish."
+        },
+        {
+        topic: "Water Salinity",
+        text: "Maintain a consistent water salinity for saltwater aquarium fish."
+        },
+        {
+        topic: "Water Quality",
+        text: "Maintain 0ppm Ammonia, 0ppm Nitrite, and less than 20ppm Nitrate for saltwater aquarium fish."
+        },
+        {
+        topic: "Water Changes",
+        text: "Regularly change up to 50% of aquarium tank water to maintain optimal water parameters."
+        },
+    ],
 
 }
