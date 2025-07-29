@@ -55,6 +55,78 @@ export const database = {
             location: "Mariana Trench",
             diet: "Carnivore",
             image: "https://c02.purpledshub.com/uploads/sites/62/2025/02/Humpback-anglerfish-Melanocetus-johnsonii-1.jpeg?w=750&webp=1"
+        },
+        {
+            name: "Sunny the Sunfish",
+            species: "Ocean Sunfish",
+            length: 9, // Multiple of 3
+            location: "Pacific Ocean",
+            diet: "Omnivore",
+            image: "https://upload.wikimedia.org/wikipedia/commons/8/87/Mola_mola.jpg"
+        },
+        {
+            name: "Spiky Pete",
+            species: "Pufferfish",
+            length: 2,
+            location: "Coral Reef",
+            diet: "Omnivore",
+            image: "https://upload.wikimedia.org/wikipedia/commons/1/1a/Tetraodon_nigroviridis_1.jpg"
+        },
+        {
+            name: "Whiskers Wellington",
+            species: "Channel Catfish",
+            length: 12, // Multiple of 3
+            location: "Mississippi River",
+            diet: "Omnivore",
+            image: "https://upload.wikimedia.org/wikipedia/commons/f/f3/Channel_catfish.jpg"
+        },
+        {
+            name: "Lightning Lucy",
+            species: "Electric Eel",
+            length: 10, // Multiple of 5
+            location: "Amazon River",
+            diet: "Carnivore",
+            image: "https://upload.wikimedia.org/wikipedia/commons/6/65/Electric_eel_at_New_England_Aquarium.jpg"
+        },
+        {
+            name: "Rainbow Rita",
+            species: "Mandarin Fish",
+            length: 3, // Multiple of 3
+            location: "South China Sea",
+            diet: "Carnivore",
+            image: "https://upload.wikimedia.org/wikipedia/commons/8/89/Synchiropus_splendidus_2_Luc_Viatour.jpg"
+        },
+        {
+            name: "Grumpy Gus",
+            species: "Grouper",
+            length: 25, // Multiple of 5
+            location: "Caribbean Sea",
+            diet: "Carnivore",
+            image: "https://upload.wikimedia.org/wikipedia/commons/9/9e/Epinephelus_itajara.jpg"
+        },
+        {
+            name: "Zippy Zebra",
+            species: "Zebra Fish",
+            length: 1,
+            location: "Indian Ocean",
+            diet: "Omnivore",
+            image: "https://upload.wikimedia.org/wikipedia/commons/f/f3/Zebra_fish.jpg"
+        },
+        {
+            name: "Hammertime Harry",
+            species: "Hammerhead Shark",
+            length: 18, // Multiple of 3
+            location: "Great Barrier Reef",
+            diet: "Carnivore",
+            image: "https://upload.wikimedia.org/wikipedia/commons/c/c5/Hammerhead_shark.jpg"
+        },
+        {
+            name: "Disco Dan",
+            species: "Parrotfish",
+            length: 20, // Multiple of 5
+            location: "Bermuda Triangle",
+            diet: "Herbivore",
+            image: "https://upload.wikimedia.org/wikipedia/commons/1/18/Scarus_psittacus_Luc_Viatour.jpg"
         }
     ],
 

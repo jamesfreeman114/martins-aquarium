@@ -4,6 +4,7 @@ import { renderTipToDOM } from './tipRender.js'
 import { locationList } from './locationList.js'
 import { renderFishToDOM } from './fishRender.js'
 import { renderLocationToDOM } from './locationRender.js'
+import { mostHolyFish, soldierFish, regularFish } from './fishFilter.js'
 
 // Generate the fish list
 const fishHTML = generateFishHTML();
@@ -21,3 +22,8 @@ renderLocationToDOM(locationHTML);
 
 // Render each HTML string to the correct DOM element
 
+const string1 = mostHolyFish(fish)
+const string2 = soldierFish(fish)
+const string3 = regularFish(fish)
+
+domReference.innerHTML = `${string1}${string2}${string3}`
