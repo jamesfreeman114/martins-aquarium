@@ -7,8 +7,17 @@
     justify-content: flex-start;
     gap: 20px;
     max-width: 800px;
+    margin: 2%;
+    background-color: rgb(107, 177, 223);
 
 }
+
+#fishList:hover {
+    transform: translateY(-5px);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+
 
 
 
@@ -20,12 +29,20 @@
     align-self: flex-start;
     justify-content: flex-end;
     max-width: 300px;
+    margin: 2%;
+    background-color: rgb(107, 177, 223);
 
 }
 
 #tipList:hover {
     transform: translateY(-5px);
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+#tipList h2 {
+    text-align: center;
+    font-size: 24px;
+    
 }
 
 #locationList {
@@ -36,6 +53,14 @@
     align-self: flex-start;
     justify-self: flex-start;
     max-width: 800px;
+    margin: 2%;
+    background-color: rgb(107, 177, 223);
 
 
 }
+
+#locationList:hover {
+    transform: translateY(-5px);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+}
+

@@ -1,13 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(2, 26, 64);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    color: rgb(107, 177, 223);
+    background-color: rgb(2, 26, 64);
+}
+
+
 .fishTips {
     display: flex;
-    justify-items: space-between; 
+    justify-items: space-between;
     align-items: flex-start;
     gap: 20px;
 }
 
 
 .fish {
-    
+
     flex-grow: 1;
     max-width: 400px;
     max-height: 1000px;
@@ -15,11 +29,12 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: #ffffff;
+    background-color: rgb(2, 26, 64);
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
     overflow: hidden;
     transition: transform 0.3s ease;
+    margin: 2%;
 }
 
 .fish:hover {
@@ -41,24 +56,28 @@
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 10px;
-    color: #333333;
+    color: rgb(107, 177, 223);
 }
 
 .fish__species {
     font-size: 14px;
-    color: #666666;
+    color: rgb(107, 177, 223);
     line-height: 1.5;
 }
 
 .tips {
     font-size: 18px;
-    color: #666666;
+    color: rgb(2, 26, 64);
     line-height: 1.5;
+    transition: transform 0.3s ease;
 }
 
 .tip {
+    font-size: 18px;
 
 }
+
+
 .locations {
     flex-basis: 300px;
     flex-grow: 1;
@@ -66,11 +85,13 @@
     margin-bottom: 10px;
     display: flex;
     flex-direction: column;
-    background-color: #ffffff;
+    background-color: rgb(2, 26, 64);
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
     overflow: hidden;
     transition: transform 0.3s ease;
+    margin: 2%;
+
 }
 
 .locations:hover {
@@ -79,11 +100,41 @@
 }
 
 
- 
 
-.location   {
+.location {
     padding: 20px;
     font-size: 16px;
-    color: #666666;
+    color: rgb(107, 177, 223);
     line-height: 1.5;
+
+}
+
+.locationTitle {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 1rem;
+    font-size: 28px;
+    color: rgb(2, 26, 64);
+    ;
+}
+
+
+.tipTitle {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 1rem;
+    font-size: 28px;
+    color: rgb(2, 26, 64);
+}
+
+.fishTitle {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 1rem;
+    color: rgb(2, 26, 64);
+    ;
+    font-size: 28px;
 }

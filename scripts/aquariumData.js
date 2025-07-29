@@ -91,7 +91,19 @@ export const database = {
             name: "Bermuda Triangle",
             country: "Atlantic Ocean",
             description: "Mysterious region where multiple ships and planes have gone missing."
-        }
+        },
+        {
+            name: "Strait of Gibraltar",
+            country: "Spain",
+            description: "A narrow strait that connects the Atlantic Ocean to the Mediterranean Sea and separates Europe from Africa."
+        },
+        {
+            name: "Ionian Sea",
+            country: "Italy",
+            description: "Sea separating Southern Italy from Greece. Famous from the Iliad and Odyssey epic poems."
+        },
+
+
     ]
 
 }
