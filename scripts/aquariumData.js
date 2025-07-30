@@ -62,7 +62,7 @@ export const database = {
             length: 9, // Multiple of 3
             location: "Pacific Ocean",
             diet: "Omnivore",
-            image: "https://upload.wikimedia.org/wikipedia/commons/8/87/Mola_mola.jpg"
+            image: "https://www.4ocean.com/cdn/shop/articles/Ocean-Sunfish-Image-1200x800_1.webp?v=1665162724&width=1600"
         },
         {
             name: "Spiky Pete",
@@ -70,7 +70,7 @@ export const database = {
             length: 2,
             location: "Coral Reef",
             diet: "Omnivore",
-            image: "https://upload.wikimedia.org/wikipedia/commons/1/1a/Tetraodon_nigroviridis_1.jpg"
+            image: "https://www.keywestaquarium.com/wp-content/uploads/2024/12/puffer-fish-mobile.jpg"
         },
         {
             name: "Whiskers Wellington",
@@ -78,7 +78,7 @@ export const database = {
             length: 12, // Multiple of 3
             location: "Mississippi River",
             diet: "Omnivore",
-            image: "https://upload.wikimedia.org/wikipedia/commons/f/f3/Channel_catfish.jpg"
+            image: "https://fullserviceaquatics.com/wp-content/uploads/2012/05/Channel-Catfish.jpg"
         },
         {
             name: "Lightning Lucy",
@@ -86,7 +86,7 @@ export const database = {
             length: 10, // Multiple of 5
             location: "Amazon River",
             diet: "Carnivore",
-            image: "https://upload.wikimedia.org/wikipedia/commons/6/65/Electric_eel_at_New_England_Aquarium.jpg"
+            image: "https://res.cloudinary.com/jerrick/image/upload/d_642250b563292b35f27461a7.png,f_jpg,fl_progressive,q_auto,w_1024/633114d2165cb7001e449bd4.jpg"
         },
         {
             name: "Rainbow Rita",
@@ -94,7 +94,7 @@ export const database = {
             length: 3, // Multiple of 3
             location: "South China Sea",
             diet: "Carnivore",
-            image: "https://upload.wikimedia.org/wikipedia/commons/8/89/Synchiropus_splendidus_2_Luc_Viatour.jpg"
+            image: "https://dtmag.com/wp-content/uploads/2019/06/mandarinfish.jpg"
         },
         {
             name: "Grumpy Gus",
@@ -102,7 +102,7 @@ export const database = {
             length: 25, // Multiple of 5
             location: "Caribbean Sea",
             diet: "Carnivore",
-            image: "https://upload.wikimedia.org/wikipedia/commons/9/9e/Epinephelus_itajara.jpg"
+            image: "https://www.neaq.org/wp-content/uploads/2023/05/goliath-grouper-header-1260x567-1.jpg"
         },
         {
             name: "Zippy Zebra",
@@ -110,7 +110,7 @@ export const database = {
             length: 1,
             location: "Indian Ocean",
             diet: "Omnivore",
-            image: "https://upload.wikimedia.org/wikipedia/commons/f/f3/Zebra_fish.jpg"
+            image: "https://cdn.britannica.com/27/195227-138-AF4258DF/lionfish-species-ranges-ecosystems-process-balance.jpg?w=800&h=450&c=crop"
         },
         {
             name: "Hammertime Harry",
@@ -118,7 +118,7 @@ export const database = {
             length: 18, // Multiple of 3
             location: "Great Barrier Reef",
             diet: "Carnivore",
-            image: "https://upload.wikimedia.org/wikipedia/commons/c/c5/Hammerhead_shark.jpg"
+            image: "https://d.newsweek.com/en/full/1980655/hammerhead.jpg?w=1200&f=3a010562cacb820e3ed4d24beaa5ad36"
         },
         {
             name: "Disco Dan",
@@ -126,7 +126,7 @@ export const database = {
             length: 20, // Multiple of 5
             location: "Bermuda Triangle",
             diet: "Herbivore",
-            image: "https://upload.wikimedia.org/wikipedia/commons/1/18/Scarus_psittacus_Luc_Viatour.jpg"
+            image: "https://www.scuba.com/blog/wp-content/uploads/2011/11/parrotfish-AdobeStock_386630558.jpg"
         }
     ],
 

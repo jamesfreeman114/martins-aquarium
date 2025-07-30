@@ -11,6 +11,35 @@ header {
     background-color: rgb(2, 26, 64);
 }
 
+.holyFishTitle {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 1rem;
+    font-size: 28px;
+    color: rgb(2, 26, 64);
+    ;
+}
+
+.soldierFishTitle {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 1rem;
+    font-size: 28px;
+    color: rgb(2, 26, 64);
+    ;
+}
+
+.normalFishTitle {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 1rem;
+    font-size: 28px;
+    color: rgb(2, 26, 64);
+    ;
+}
 
 .fishTips {
     display: flex;
@@ -20,7 +49,7 @@ header {
 }
 
 
-.fish {
+.holyFish {
 
     flex-grow: 1;
     max-width: 400px;
@@ -37,29 +66,124 @@ header {
     margin: 2%;
 }
 
-.fish:hover {
+.soldierFish {
+
+    flex-grow: 1;
+    max-width: 400px;
+    max-height: 1000px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(2, 26, 64);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    margin: 2%;
+}
+
+.normalFish {
+
+    flex-grow: 1;
+    max-width: 400px;
+    max-height: 1000px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(2, 26, 64);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    margin: 2%;
+}
+
+.holyFish:hover {
     transform: translateY(-5px);
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
 }
 
-.fish__image {
+.soldierFish:hover {
+    transform: translateY(-5px);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.normalFish:hover {
+    transform: translateY(-5px);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+
+
+
+.holyFish__image {
     max-width: 10rem;
 }
 
-.fish__details {
+
+.soldierFish__image {
+    max-width: 10rem;
+}
+
+.normalFish__image {
+    max-width: 10rem;
+}
+
+
+.holyFish__details {
+    padding: 20px;
+}
+
+.soldierFish__details {
+    padding: 20px;
+}
+
+.normalFish__details {
     padding: 20px;
 }
 
 
 
-.fish__name {
+
+.holyFish__name {
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 10px;
     color: rgb(107, 177, 223);
 }
 
-.fish__species {
+.soldierFish__name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: rgb(107, 177, 223);
+}
+
+.normalFish__name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: rgb(107, 177, 223);
+}
+
+
+
+.holyFish__species {
+    font-size: 14px;
+    color: rgb(107, 177, 223);
+    line-height: 1.5;
+}
+
+
+.soldierFish__species {
+    font-size: 14px;
+    color: rgb(107, 177, 223);
+    line-height: 1.5;
+}
+
+.normalFish__species {
     font-size: 14px;
     color: rgb(107, 177, 223);
     line-height: 1.5;
@@ -129,7 +253,7 @@ header {
     color: rgb(2, 26, 64);
 }
 
-.fishTitle {
+.holyFishTitle {
     display: flex;
     width: 100%;
     justify-content: center;

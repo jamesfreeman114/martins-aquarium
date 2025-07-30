@@ -22,8 +22,11 @@ renderLocationToDOM(locationHTML);
 
 // Render each HTML string to the correct DOM element
 
-const string1 = mostHolyFish(fish)
-const string2 = soldierFish(fish)
-const string3 = regularFish(fish)
+const holiestFish = mostHolyFish();
+const fiveFish = soldierFish()
+const basicFish = regularFish()
 
-domReference.innerHTML = `${string1}${string2}${string3}`
+
+const newFishHTML = document.getElementById('fishList');
+newFishHTML.innerHTML = `${holiestFish}${fiveFish}${basicFish}`;
+
