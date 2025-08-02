@@ -11,45 +11,8 @@ header {
     background-color: rgb(2, 26, 64);
 }
 
-.holyFishTitle {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    margin-bottom: 1rem;
-    font-size: 28px;
-    color: rgb(2, 26, 64);
-    ;
-}
 
-.soldierFishTitle {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    margin-bottom: 1rem;
-    font-size: 28px;
-    color: rgb(2, 26, 64);
-    ;
-}
-
-.normalFishTitle {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    margin-bottom: 1rem;
-    font-size: 28px;
-    color: rgb(2, 26, 64);
-    ;
-}
-
-.fishTips {
-    display: flex;
-    justify-items: space-between;
-    align-items: flex-start;
-    gap: 20px;
-}
-
-
-.holyFish {
+.fish {
 
     flex-grow: 1;
     max-width: 400px;
@@ -66,102 +29,25 @@ header {
     margin: 2%;
 }
 
-.soldierFish {
-
-    flex-grow: 1;
-    max-width: 400px;
-    max-height: 1000px;
-    margin-bottom: 20px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    background-color: rgb(2, 26, 64);
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-    overflow: hidden;
-    transition: transform 0.3s ease;
-    margin: 2%;
-}
-
-.normalFish {
-
-    flex-grow: 1;
-    max-width: 400px;
-    max-height: 1000px;
-    margin-bottom: 20px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    background-color: rgb(2, 26, 64);
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-    overflow: hidden;
-    transition: transform 0.3s ease;
-    margin: 2%;
-}
-
-.holyFish:hover {
-    transform: translateY(-5px);
-    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
-}
-
-.soldierFish:hover {
-    transform: translateY(-5px);
-    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
-}
-
-.normalFish:hover {
+.fish:hover {
     transform: translateY(-5px);
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
 }
 
 
 
-
-.holyFish__image {
+.fish__image {
     max-width: 10rem;
 }
 
 
-.soldierFish__image {
-    max-width: 10rem;
-}
-
-.normalFish__image {
-    max-width: 10rem;
-}
-
-
-.holyFish__details {
-    padding: 20px;
-}
-
-.soldierFish__details {
-    padding: 20px;
-}
-
-.normalFish__details {
+.fish__details {
     padding: 20px;
 }
 
 
 
-
-.holyFish__name {
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 10px;
-    color: rgb(107, 177, 223);
-}
-
-.soldierFish__name {
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 10px;
-    color: rgb(107, 177, 223);
-}
-
-.normalFish__name {
+.fish__name {
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 10px;
@@ -170,24 +56,13 @@ header {
 
 
 
-.holyFish__species {
+.fish__species {
     font-size: 14px;
     color: rgb(107, 177, 223);
     line-height: 1.5;
 }
 
 
-.soldierFish__species {
-    font-size: 14px;
-    color: rgb(107, 177, 223);
-    line-height: 1.5;
-}
-
-.normalFish__species {
-    font-size: 14px;
-    color: rgb(107, 177, 223);
-    line-height: 1.5;
-}
 
 .tips {
     font-size: 18px;
@@ -233,6 +108,18 @@ header {
 
 }
 
+.fishTitle {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 1rem;
+    color: rgb(2, 26, 64);
+    ;
+    font-size: 28px;
+}
+
+
+
 .locationTitle {
     display: flex;
     width: 100%;
@@ -253,12 +140,3 @@ header {
     color: rgb(2, 26, 64);
 }
 
-.holyFishTitle {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    margin-bottom: 1rem;
-    color: rgb(2, 26, 64);
-    ;
-    font-size: 28px;
-}

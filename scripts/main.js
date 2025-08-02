@@ -30,3 +30,4 @@ const basicFish = regularFish()
 const newFishHTML = document.getElementById('fishList');
 newFishHTML.innerHTML = `${holiestFish}${fiveFish}${basicFish}`;
 
+
